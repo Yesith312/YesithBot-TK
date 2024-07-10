@@ -1,0 +1,18 @@
+{
+  "name": "YesithBot-TK", 
+  "description": "Super Bot WhatsApp",
+  "repository": "https://github.com/Yesith312/YesithBot-TK",
+  "logo": "https://telegra.ph/file/c9c8d37ae5bd30ab83980.jpg",
+  "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
+    }    
+ ]
+}
